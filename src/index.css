@@ -14,6 +14,23 @@
   @apply bg-custom-black p-4 md:p-6 rounded-xl
 }
 
+.custom-range {
+  @apply appearance-none w-full h-2 rounded-lg bg-custom-yellow
+}
+
+.custom-range::-moz-range-thumb {
+  @apply appearance-none cursor-pointer w-4 h-4 bg-custom-yellow rounded-full border-0
+}
+
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #FAD14F;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+
 .custom-checkbox {
   @apply h-4 w-4 rounded border-gray-300 focus:border-custom-aqua focus:ring-2 focus:ring-custom-aqua focus:ring-opacity-50 text-custom-yellow disabled:text-gray-500
 }

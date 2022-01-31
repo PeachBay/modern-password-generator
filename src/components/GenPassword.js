@@ -46,16 +46,16 @@ const GenPassword = ({setNewPassword, setCheckOptions, checkOptions, setNewLengt
   }
 
   return (
-    <section className="max-w-3xl card mx-auto mt-10">
+    <>
       <div>
-        Choose length: <span className="length-chara">{newLength}</span> characters
-        <input type="range" min="8" max="36" defaultValue={newLength} className="length-slide" onChange={handleLength}></input>
+        <p>Choose length: <span className="length-chara">{newLength}</span> characters</p>
+        <input type="range" min="8" max="36" defaultValue={newLength} className="custom-range" onChange={handleLength}></input>
       </div>
 
       {checkOptions.map(checkbox =>
         <Checkbox key={checkbox.id} id={checkbox.id} label={checkbox.label} handleChange={() => handleCheck(checkbox)} isChecked={true} isDisabled={checkbox.isDisabled}/>
       )}
-    </section>
+    </>
   )
 }
 

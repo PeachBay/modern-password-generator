@@ -131,6 +131,8 @@ To get a local copy up and running, follow these two simple  steps.
 
 - [ ] Add animation when copy button is clicked
 - [ ] Add words-dictionnary option possibility
+  - [ ] Add different separator between words (such as symbols instead of hyphen)
+- [ ] Add multiple language as words option
 
 See the [open issues](https://github.com/PeachBay/modern-password-generator/issues) for a full list of proposed features (and known issues).
 

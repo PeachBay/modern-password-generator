@@ -6,10 +6,6 @@
   @apply font-mono tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-custom-aqua to-custom-yellow
 }
 
-.link {
-  @apply font-bold underline decoration-pink-500 decoration-2 dark:text-gray-200
-}
-
 .card {
   @apply bg-custom-black p-4 md:p-6 rounded-xl
 }

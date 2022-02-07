@@ -21,7 +21,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url][![Netlify Status](https://api.netlify.com/api/v1/badges/8ba1c6cc-174c-46ad-972b-58c85c82150e/deploy-status)](https://app.netlify.com/sites/cra-password-generator/deploys)
 
 
 
@@ -164,3 +164,4 @@ Project Link: [https://github.com/PeachBay/modern-password-generator](https://gi
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/tiffenyk
 [product-screenshot]: images/screenshot.png
+
